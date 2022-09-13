@@ -10,3 +10,12 @@
 ![image](https://user-images.githubusercontent.com/75389185/189787837-3fdb8918-2123-4b84-a045-93690dafb064.png)
 
 We found that there is no polymorphism happend. As they both adjust the same object.And give same output.
+
+
+Now we have override WhoamI function from the Animal class. Now if we see the output. We have seen that WhoamI of animal and dog gives different output means there is molyphorpism happend.
+![image](https://user-images.githubusercontent.com/75389185/189789135-c6f79069-e66a-4f95-ac0d-13b5e60f81fe.png)
+
+Print out put from main function:
+![image](https://user-images.githubusercontent.com/75389185/189789216-4c5a616b-8bb6-485b-a013-73363441b29c.png)
+
+Here, one object has different behaviour. This is called polymorohism.
