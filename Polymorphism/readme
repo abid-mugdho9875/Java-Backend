@@ -1,0 +1,12 @@
+1. In order to understand polymorphism, we first take three files. Below see the directory.
+![image](https://user-images.githubusercontent.com/75389185/189787278-8fbbe963-c1d0-4510-827d-a171212e7207.png)
+2. In animal class we write an function that print something.
+![image](https://user-images.githubusercontent.com/75389185/189787038-1fef0fbf-31af-44a6-afad-09b06979d287.png)
+3. We then create dog class that extends the animal class
+![image](https://user-images.githubusercontent.com/75389185/189787492-e204ce2c-1c9c-4254-932f-1d15f9147068.png)
+4. From inside the main class we create obj of animal class as well as dog class.If we call the function with this object we find the below result
+![image](https://user-images.githubusercontent.com/75389185/189787795-7d78cec6-692e-41e9-a154-63bc17c3dd5a.png)
+
+![image](https://user-images.githubusercontent.com/75389185/189787837-3fdb8918-2123-4b84-a045-93690dafb064.png)
+
+We found that there is no polymorphism happend. As they both adjust the same object.And give same output.
