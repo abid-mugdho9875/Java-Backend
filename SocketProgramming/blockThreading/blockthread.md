@@ -75,7 +75,7 @@ public class DemoClass
 } 
 ```
 understanable code:
-
+```
 public class Foo implements Runnable {
 
     @Override
@@ -109,7 +109,7 @@ public class Foo implements Runnable {
         t4.start();
     }
 }
-
+```
 In this example, we have used same example for class level blocking. In that case , all the instance of the object which is created from same class. n this example, t1 and t2 thread is created by taking the instance b1 of Foo class . And t3 and t4 thread is created by taking the instance b2 of Foo class. At the blocking level, they can block one after another not object dependence. They are consider here to be a part of same class.
 
 
