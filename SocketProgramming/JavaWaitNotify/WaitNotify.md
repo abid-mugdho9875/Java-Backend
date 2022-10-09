@@ -119,6 +119,8 @@ Inorder to turn thread from  waiting and timed_waiting state to a runnable state
 ![image](https://user-images.githubusercontent.com/75389185/194761886-45a3c14c-ff78-4c8e-a5cb-bd52e3153a6a.png)
 
 We have seen that all the threads turn on as notifyall() notify all the threads.
+
+
 Task:
 Remove sleep method or set small value for sleep method. And also notifyall() .
 What happens see on the console!!! Try to undersatnt and explain it.
