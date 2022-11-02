@@ -69,4 +69,6 @@ Interesting fact that, for this time slot first thread3, then thread2, then thre
 
 part of every threads execute at the same time by sharing time slot. So, here needs multiple timeslot. Each time, part of threads are excuted. 
 
+
+
 --------------------------Thank you------------------------
