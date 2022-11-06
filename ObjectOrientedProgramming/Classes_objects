@@ -79,7 +79,63 @@ Here we used two packages P1 and P2. We can access the protected class outside t
 OUTPUT:
 protected class
 ```
+Static vs Non-static:
+ - Static fields reside inside the class on the other hand non-static fields reside inside the instance.
+ - To access the static field, we can use the class itself. But for accessing the non-static field we have to create an instance of the class. 
+           Static field code:
+        
+        class Car {   
+           static  int maxCapacity =  4;    
+           static String color =  "green";
+           }
+        class Demo {
+            public  static  void main(String args[]){
+    
+        System.out.println(Car.topSpeed);
+        
+        System.out.println(Car.maxCapacity);
+        
+        System.out.println(Car.color);
+        
+        }
+    
+        }
 
+  
+  Code of nonstatic example:
+  ```
+  class Car {
+
+// static fields
+
+int speed =  100;
+
+int capacity =  4;
+
+static String color =  "green";
+
+}
+
+  
+
+class Demo {
+
+public  static  void main(String args[]){
+
+Car obj1 =  new Car();
+
+System.out.println(obj1.speed);
+
+System.out.println(obj1.capacity);
+
+System.out.println(obj1.color);
+
+}
+
+}
+  ```
+
+Another field name **final** fields, use some cases to avoid assigning.
 
 ## Question:
 1. Define a java class occupy any memory?
@@ -98,3 +154,8 @@ protected class
       2. Used only inside the package.
       3   .Used inside the package and can't access throw the outside class.
       4.  Used inside the package and can access throw the outside class by inherited.
+ 5. How can access non-static fields?
+     1. Simply using the class itself.
+     2. Create an instance of the class and then access it through this instance.
+     3. Can not access this type of field.
+     4. none of the above.
