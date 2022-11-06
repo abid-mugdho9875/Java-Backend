@@ -5,6 +5,81 @@ In real world, we can find many objects around us. ll these objects have some st
 1. Class is a set of object which shares common characteristics/ behavior and common properties/ attributes.  
 2. Class is not a real world entity. It is just a template or blueprint or prototype from which objects are created.  
 3. Class does not occupy memory.
+![image](https://user-images.githubusercontent.com/75389185/200157009-7aed52a4-6276-4a0f-aa7c-2d7eb280f090.png)
+
+### ### Fields
+This is known as **member variable**.  As they contain information about the class.
+### Methods
+use to perform operations using the fields variable.
+
+The concept of classes allows us to create complex objects and applications in Java. This is why classes are the basic building blocks behind all of the OOP’s principles .
+```
+Private    
+cannot be accessed directly from the outside of the class.It is used to keep the variable or methods hidden from the users. 
+
+Public
+It can access anywhere.As it provides the interface through which it can access the private member through this interface.
+'''
+class private_class {
+
+   private  int val;  // Private variable
+
+   public  int getVal(){
+
+        return val;  // The private variable is directly accessible over here!
+
+}
+
+}
+
+Protected
+
+This category is unique. This stay inside the private and public class. This tag is mainly used at the time of inheritance. This is the process of creating a class outside the package. Protected data members can be used inside the package.However, outside the package, they can only be referred to through an inherited class.
+
+Here we used two packages P1 and P2. We can access the protected class outside the package throw the inherited class.
+
+`package` `p1;`
+
+`// Class A`
+
+`public` `class` `A {`
+
+`protected` `void` `display()`
+
+`{`
+
+`System.out.println(``"Protected class"``);`
+
+`}`
+
+`}`
+
+`package` `p2;`
+
+`// import all classes in package p1`
+
+`import` `p1.*;`
+
+`// Class B is a subclass of A`
+
+`class` `B` `extends` `A {`
+
+`public` `static` `void` `main(String args[])`
+
+`{`
+
+`B obj =` `new` `B();`
+
+`obj.display();`
+
+`}`
+
+`}`
+'''
+OUTPUT:
+protected class
+```
+
 
 ## Question:
 1. Define a java class occupy any memory?
@@ -18,3 +93,8 @@ In real world, we can find many objects around us. ll these objects have some st
  3. When you create objects does memory allocation takes place?
        1. Yes
        2. No
+4. Why protected class used in java?
+      1. Used class anywhere.
+      2. Used only inside the package.
+      3   .Used inside the package and can't access throw the outside class.
+      4.  Used inside the package and can access throw the outside class by inherited.
