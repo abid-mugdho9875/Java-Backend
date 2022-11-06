@@ -1,0 +1,20 @@
+# Classes and Objects
+
+In real world, we can find many objects around us. ll these objects have some state and behavior. If we consider a car, then its states are **name**, **speed**, and **fuel**, and the behavior is **refuel**, **drive**, and **park.**
+### Defination:
+1. Class is a set of object which shares common characteristics/ behavior and common properties/ attributes.  
+2. Class is not a real world entity. It is just a template or blueprint or prototype from which objects are created.  
+3. Class does not occupy memory.
+
+## Question:
+1. Define a java class occupy any memory?
+    1. Yes
+    2. No
+2. What happens when defining a class?
+     1. It will occupy a memory.
+     2. It will just save files on your hard drive.
+     3.  Memorylocation will be occupied.
+     4. None of the above.
+ 3. When you create objects does memory allocation takes place?
+       1. Yes
+       2. No
