@@ -23,32 +23,38 @@
          1. Same constructs are offered by all programming languages.
          2. Several Constructs are offered by different programming Languages.
          3. All of the above
-     7. What does *multiprocessing* concept means?
+
+   7. What does *multiprocessing* concept means?
         1. multiple processes get scheduled on one CPU.
         2. multiple processes get scheduled on more than one  CPU.
         3. multiple processes get scheduled on one CPU core
         4. No concept exists.
-     8. What is Serial Execution?
+
+   8. What is Serial Execution?
          1. Execute more than one task at a time.
          2. Execute more than one task simultaneously.
          3. Execute more than one task but inconsistent order.
          4. Execute more than one task but at a time one task is executed.
-     9. what is Java Concurrency means?
+   
+   9. what is Java Concurrency means?
           1. Execute more than one task but at a time one task is executed.
           2. Execute more than one task simultaneously in overlapping time intervals. 
           3. Execute more than one task but has a consistent order.
           4. None of the above.
-     10. What is meant by Parallelism in JAVA?
+   
+   10. What is meant by Parallelism in JAVA?
           1. Execute more than one task simultaneously in overlapping time intervals. 
           2. Execute more than one task simultaneously by using two different processes.
           3. Execute more than one task but has a consistent order.
           4. All of the Above.      
-       11. What is the goal of the concurrent System?
+   
+   11. What is the goal of the concurrent System?
            1. maximize throughput.
            2. minimize throughput.
            3. maximize latency.
            4. maximize throughput and also minimize latency.
-        12. What is the goal of the Parallel System?
+   
+   12. What is the goal of the Parallel System?
             1. Increasing the throughput and minimizing the hardware resources.
             2. Decreasing the throughput and maximizing the hardware resources. 
             3. Increasing the throughput and also maximize the hardware resources.
