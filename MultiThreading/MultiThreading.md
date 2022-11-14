@@ -37,10 +37,10 @@
          4. Execute more than one task but at a time one task is executed.
    
    9. what is Java Concurrency means?
-          1. Execute more than one task but at a time one task is executed.
-          2. Execute more than one task simultaneously in overlapping time intervals. 
-          3. Execute more than one task but has a consistent order.
-          4. None of the above.
+         1. Execute more than one task but at a time one task is executed.
+         2. Execute more than one task simultaneously in overlapping time intervals. 
+         3. Execute more than one task but has a consistent order.
+         4. None of the above.
    
    10. What is meant by Parallelism in JAVA?
           1. Execute more than one task simultaneously in overlapping time intervals. 
@@ -49,16 +49,16 @@
           4. All of the Above.      
    
    11. What is the goal of the concurrent System?
-           1. maximize throughput.
-           2. minimize throughput.
-           3. maximize latency.
-           4. maximize throughput and also minimize latency.
+         1. maximize throughput.
+         2. minimize throughput.
+         3. maximize latency.
+         4. maximize throughput and also minimize latency.
    
    12. What is the goal of the Parallel System?
-            1. Increasing the throughput and minimizing the hardware resources.
-            2. Decreasing the throughput and maximizing the hardware resources. 
-            3. Increasing the throughput and also maximize the hardware resources.
-            4. Decreasing the throughput and also minimize the hardware resources.
+         1. Increasing the throughput and minimizing the hardware resources.
+         2. Decreasing the throughput and maximizing the hardware resources. 
+         3. Increasing the throughput and also maximize the hardware resources.
+         4. Decreasing the throughput and also minimize the hardware resources.
 #####  Suppose, You have a single-core operating System and you know that an operating system can process one task at a time.  You try to run two apps at the same time.  And you see that both apps running at the same time simultaneously. Could you be amazed? And then you decide that you want to increase the system's capability. As a result, you shift your machine from single core to multicore. And again you run these two apps. At that time two apps running on two different cores. (We just imagine the scenario there might be an abstract scenario in the practical case) 
 
 13. What is the system of scenario one?
