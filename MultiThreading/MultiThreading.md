@@ -112,7 +112,7 @@
              2. Cpu Scheduler
              3. Thread Scheduler
              4. None of the Above.
-        25. Which operating System was used for cooperative multitasking?
+25. Which operating System was used for cooperative multitasking?
              1. Windows 10.
              2. Recent MacOS.
              3. Early Version of Windows and macOS.
