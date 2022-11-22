@@ -80,3 +80,42 @@
    16. You have tried to execute multiple tasks using the multicore machine. From that point of view, systems are both concurrent and parallel. Is it True or False?
         1. True
         2. False
+   17. Which type of multitasking models are used by the System to achieve concurrency?
+        1. preemptive multitasking.
+        2. cooperative multitasking.
+        3. All of the Above
+        4. None of them
+    18. In preemptive multitasking programs can decide how long for or when they can use CPU ?
+         1. True 
+         2. False
+     19. In preemptive multitasking who decides how long for or when any program can use the CPU?
+         1. Program itself.
+         2. Thread itself
+         3. Operating System Schedulers.
+         4. Thread scheduler as well as the program itself. 
+     20. Suppose a malicious program is initiated in preemptive multitasking and it falls into an infinite loop. What happens at that time??
+          1. It affects all the programs
+          2. It hurts only itself and does not affect the other parts.
+          3. Both 1 & 2.
+          4. It will destroy the system. 
+        21. In preemptive multitasking, programmers have the burden to decide when to give back to the CPU code.
+            1. True 
+            2. False
+         22. Suppose, you are a programmer and you have tried to build a system that can be used by just one user (just imagine not being serious!!!)  Which type of multitasking would you use preemptive multitasking or cooperative multitasking? Gives your personal information. 
+         23. What will be happened in cooperative multitasking if malicious programs initiate?
+             1. It doesn't affect the entire system.
+             2. It will run on an infinite loop and doesn't give the control back to other programs or systems.
+             3. It hurts only itself and does not affect the other parts.
+             4. None of the above.
+        24. In cooperative multitasking who implements the cooperative multitasking?
+             1. Process Scheduler 
+             2. Cpu Scheduler
+             3. Thread Scheduler
+             4. None of the Above.
+        25. Which operating System was used for cooperative multitasking?
+             1. Windows 10.
+             2. Recent MacOS.
+             3. Early Version of Windows and macOS.
+             4. None of the operating systems.
+
+ Ans> 1. (3) 3. (3) 4. (4) 5. (1)  6. (2) 7. (2) 8. (4) 9. (2) 10. (2) 11.(4) 12.(3) 13. (3) 14. (1) 15. (2) 16. (1)  17.(3) 18. (2) 19. (3) 20. (2) 21. (2) 22. 23. (2) 24. (1) 25. (3)     
