@@ -66,52 +66,60 @@
     2. Parallel System
     3. Concurrent System
     4. All of the Above.
- 14. What is the system of scenario two?
+14. What is the system of scenario two?
       1. Parallel System
       2. Serial Connection System
       3. Concurrent System
       4. None of the above
-  15. Which is not the correct quote in terms of java multithreading?
+15. Which is not the correct quote in terms of java multithreading?
       1.  Parallel systems need not be Concurrent
       2. concurrent systems need not be parallel.
       3. Concurrency is about _dealing_ with lots of things at once
       4. Parallelism is about _doing_ lots of things at once
      
-   16. You have tried to execute multiple tasks using the multicore machine. From that point of view, systems are both concurrent and parallel. Is it True or False?
+16. You have tried to execute multiple tasks using the multicore machine. From that point of view, systems are both concurrent and parallel. Is it True or False?
         1. True
         2. False
-   17. Which type of multitasking models are used by the System to achieve concurrency?
+17. Which type of multitasking models are used by the System to achieve concurrency?
         1. preemptive multitasking.
         2. cooperative multitasking.
         3. All of the Above
         4. None of them
-    18. In preemptive multitasking programs can decide how long for or when they can use CPU ?
+
+18. In preemptive multitasking programs can decide how long for or when they can use CPU ?
          1. True 
          2. False
-     19. In preemptive multitasking who decides how long for or when any program can use the CPU?
+
+19. In preemptive multitasking who decides how long for or when any program can use the CPU?
          1. Program itself.
          2. Thread itself
          3. Operating System Schedulers.
          4. Thread scheduler as well as the program itself. 
-     20. Suppose a malicious program is initiated in preemptive multitasking and it falls into an infinite loop. What happens at that time??
+
+20. Suppose a malicious program is initiated in preemptive multitasking and it falls into an infinite loop. What happens at that time??
           1. It affects all the programs
           2. It hurts only itself and does not affect the other parts.
           3. Both 1 & 2.
           4. It will destroy the system. 
-        21. In preemptive multitasking, programmers have the burden to decide when to give back to the CPU code.
+
+21. In preemptive multitasking, programmers have the burden to decide when to give back to the CPU code.
             1. True 
             2. False
-         22. Suppose, you are a programmer and you have tried to build a system that can be used by just one user (just imagine not being serious!!!)  Which type of multitasking would you use preemptive multitasking or cooperative multitasking? Gives your personal information. 
-         23. What will be happened in cooperative multitasking if malicious programs initiate?
+
+22. Suppose, you are a programmer and you have tried to build a system that can be used by just one user (just imagine not being serious!!!)  Which type of multitasking would you use preemptive multitasking or cooperative multitasking? Gives your personal information. 
+
+23. What will be happened in cooperative multitasking if malicious programs initiate?
              1. It doesn't affect the entire system.
              2. It will run on an infinite loop and doesn't give the control back to other programs or systems.
              3. It hurts only itself and does not affect the other parts.
              4. None of the above.
-        24. In cooperative multitasking who implements the cooperative multitasking?
+
+24. In cooperative multitasking who implements the cooperative multitasking?
              1. Process Scheduler 
              2. Cpu Scheduler
              3. Thread Scheduler
              4. None of the Above.
+             
 25. Which operating System was used for cooperative multitasking?
              1. Windows 10.
              2. Recent MacOS.
