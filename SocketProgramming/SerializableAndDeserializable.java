@@ -9,6 +9,7 @@ public class SerializableAndDeserializable {
         try(ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("person.ser"))){
             outputStream.writeObject(person);
         }
+        //catch
         catch(IOException e){
             e.printStackTrace();
         }
